@@ -2,7 +2,9 @@
 const aboutBtn = document.getElementById('info1');
 const whyFacBtn = document.getElementById('info2');
 const whySdBtn = document.getElementById('info3');
+
 const ProjectsBtn = document.getElementById("projects");
+const GitHubBtn = document.getElementById("git-logo")
 
 const aboutDiv = document.getElementById('about');
 const whyFacDiv = document.getElementById('why-fac');
@@ -14,6 +16,14 @@ ProjectsBtn.addEventListener("click", () => {
 
 function GoToProjectGallery() {
     window.location = "https://lucfercas.github.io/Project-Gallery/";
+}
+
+GitHubBtn.addEventListener("click", () => {
+    GoToRepos();
+});
+
+function GoToRepos() {
+    window.open("https://github.com/lucfercas", '_blank');
 }
 
 aboutBtn.addEventListener('click', () => {

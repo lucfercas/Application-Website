@@ -46,6 +46,8 @@ p {
     font-size: 1.8vw;
 }
 
+
+
 .btn:hover {
     background-color: #555555;
     color: white;
@@ -89,17 +91,13 @@ p {
     opacity: 1;
 }
 
-footer{
+footer {
     display: flex;
     justify-content: center;
     padding-top: 0;
 
 }
 
-footer p{
+footer p {
     font-size: 12px;
-}
-
-footer #message{
-    margin-right: 6px;
 }
